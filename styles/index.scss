@@ -12,7 +12,8 @@
 @import '~bootstrap/scss/bootstrap-grid';
 @import '~bootstrap/scss/bootstrap-utilities';
 
-@import 'variables', 'reset';
+@import 'variables';
+@import 'reset';
 
 // shared
 @import './shared/index';

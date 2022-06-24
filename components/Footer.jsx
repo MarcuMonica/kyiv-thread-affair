@@ -1,7 +1,7 @@
 export default function Footer() {
   return (
     <footer className="footer">
-      <section className="footer-primary">
+      <section className="footer-primary p-5">
         <div className="footer-primary-inner container">
           <nav className="footer-nav">
             <ul>
@@ -52,80 +52,38 @@ export default function Footer() {
               </li>
 
               <li>
-                <a href="https://x.ro" title="Information">
-                  Information
+                <a href="https://x.ro" title="Careers">
+                  Careers
                 </a>
               </li>
 
               <li>
-                <a href="https://x.ro" title="Contact Us">
-                  Contact Us
+                <a href="https://x.ro" title="About Us">
+                  About Us
                 </a>
               </li>
 
               <li>
-                <a href="https://x.ro" title="Track my order">
-                  Track my order
+                <a href="https://x.ro" title="Our Story">
+                  Our Story
                 </a>
               </li>
 
               <li>
-                <a href="https://x.ro" title="Shipping">
-                  Shipping
+                <a href="https://x.ro" title="Art &amp; Culture">
+                  Art &amp; Culture
                 </a>
               </li>
 
               <li>
-                <a href="https://x.ro" title="Free Returns">
-                  Free Returns
+                <a href="https://x.ro" title="Our private labels">
+                  Our private labels
                 </a>
               </li>
 
               <li>
-                <a href="https://x.ro" title="My Account">
-                  My Account
-                </a>
-              </li>
-            </ul>
-
-            <ul>
-              <li>
-                <a href="https://x.ro" title=""></a>
-              </li>
-
-              <li>
-                <a href="https://x.ro" title="Information">
-                  Information
-                </a>
-              </li>
-
-              <li>
-                <a href="https://x.ro" title="Contact Us">
-                  Contact Us
-                </a>
-              </li>
-
-              <li>
-                <a href="https://x.ro" title="Track my order">
-                  Track my order
-                </a>
-              </li>
-
-              <li>
-                <a href="https://x.ro" title="Shipping">
-                  Shipping
-                </a>
-              </li>
-
-              <li>
-                <a href="https://x.ro" title="Free Returns">
-                  Free Returns
-                </a>
-              </li>
-
-              <li>
-                <a href="https://x.ro" title="My Account">
-                  My Account
+                <a href="https://x.ro" title="Stores">
+                  Stores
                 </a>
               </li>
             </ul>
@@ -136,38 +94,74 @@ export default function Footer() {
               </li>
 
               <li>
-                <a href="https://x.ro" title="Information">
-                  Information
+                <a href="https://x.ro" title="Services">
+                  Services
                 </a>
               </li>
 
               <li>
-                <a href="https://x.ro" title="Contact Us">
-                  Contact Us
+                <a href="https://x.ro" title="Ship to store">
+                  Ship to store
                 </a>
               </li>
 
               <li>
-                <a href="https://x.ro" title="Track my order">
-                  Track my order
+                <a href="https://x.ro" title="Gift Card">
+                  Gift Card
                 </a>
               </li>
 
               <li>
-                <a href="https://x.ro" title="Shipping">
-                  Shipping
+                <a href="https://x.ro" title="Online Only">
+                  Online Only
                 </a>
               </li>
 
               <li>
-                <a href="https://x.ro" title="Free Returns">
-                  Free Returns
+                <a href="https://x.ro" title="Tips &amp; Tricks">
+                  Tips &amp; Tricks
+                </a>
+              </li>
+
+              <li>
+                <a href="https://x.ro" title="Home">
+                  Home
+                </a>
+              </li>
+            </ul>
+
+            <ul>
+              <li>
+                <a href="https://x.ro" title=""></a>
+              </li>
+
+              <li>
+                <a href="https://x.ro" title="Loyalty Programs">
+                  Loyalty Programs
+                </a>
+              </li>
+
+              <li>
+                <a href="https://x.ro" title="Sign up to the Simons">
+                  Sign up to the Simons
                 </a>
               </li>
 
               <li>
                 <a href="https://x.ro" title="My Account">
                   My Account
+                </a>
+              </li>
+
+              <li>
+                <a href="https://x.ro" title="Coditions">
+                  Coditions
+                </a>
+              </li>
+
+              <li>
+                <a href="https://x.ro" title="FAQ">
+                  FAQ
                 </a>
               </li>
             </ul>
@@ -195,18 +189,21 @@ export default function Footer() {
             <ul>
               <li>
                 <a href="https://x.ro" title="Support">
+                  <i className="fa-solid fa-phone"></i>
                   Support
                 </a>
               </li>
 
               <li>
                 <a href="https://x.ro" title="Chat">
+                  <i className="fa-solid fa-comments"></i>
                   Chat
                 </a>
               </li>
 
               <li>
                 <a href="https://x.ro" title="Email">
+                  <i className="fa-solid fa-envelope-open-text"></i>
                   Email
                 </a>
               </li>
@@ -215,7 +212,7 @@ export default function Footer() {
         </div>
       </section>
 
-      <section className="footer-secondary text-center mt-4">
+      <section className="footer-secondary text-center mt-4 d-none d-lg-block">
         <p>©2019 THREAD AFFAIR. All Rights Reserved.</p>
 
         <p>
