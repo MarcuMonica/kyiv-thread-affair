@@ -1,9 +1,10 @@
 .home-newsletter {
-  padding: 30px 0;
+  padding: 60px 0;
   background-color: $gray-secondary;
   color: $white;
   font-size: 19px;
   text-transform: uppercase;
+  margin-bottom: 50px;
 
   form {
     display: flex;
@@ -35,6 +36,7 @@
     font-weight: 100;
     border-bottom: 1px solid $white;
     color: $white;
+    outline: none;
 
     @include media-breakpoint-up('lg') {
       width: 32.60188%; // 416 : 1278 * 100;

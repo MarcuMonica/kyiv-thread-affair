@@ -1,5 +1,6 @@
 .product-tile {
   width: 100%;
+  margin-bottom: 70px;
 
   &-header {
     position: relative;
@@ -8,6 +9,28 @@
       position: absolute;
       top: 20px;
       right: 20px;
+    }
+
+    .product-tile-title {
+      font-size: 24px;
+      line-height: 22px;
+      font-weight: 200;
+      color: $gray-primary;
+
+      span {
+        font-weight: 500;
+
+        &:first-of-type {
+          color: $black;
+        }
+      }
+    }
+
+    .product-tile-subtitle {
+      color: $gray-primary;
+      font-size: 18px;
+      font-weight: 200;
+      line-height: 22px;
     }
   }
 

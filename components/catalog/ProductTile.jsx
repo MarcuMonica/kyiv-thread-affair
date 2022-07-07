@@ -18,7 +18,7 @@ export default function ProductTile() {
         <div className="mt-4 text-center">
           <h1 className="product-tile-title">
             <span>Thread Affair</span>
-            <span> Traveller</span>
+            <span> Traveller </span>
             Suit
           </h1>
 
@@ -26,7 +26,9 @@ export default function ProductTile() {
         </div>
       </header>
       <section className="product-tile-pricing text-center">
-        <span className="catalog-price d-block">399.00</span>
+        <span className="catalog-price d-block ">
+          <del>399.00</del>
+        </span>
 
         <span className="price">
           USD

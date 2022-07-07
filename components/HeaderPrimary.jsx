@@ -26,6 +26,17 @@ export default function HeaderPrimary() {
               Accesorii
             </a>
           </li>
+
+          <li>
+            <a
+              className="customize-button"
+              href="https://x.ro"
+              title="customize-button"
+            >
+              <i className="fa-solid fa-sliders"></i>
+              <span className="customize-label">Customize your Suit</span>
+            </a>
+          </li>
         </ul>
       </nav>
 

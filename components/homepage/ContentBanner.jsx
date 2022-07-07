@@ -1,6 +1,6 @@
 export default function ContentBanner() {
   return (
-    <div className="content-banner">
+    <div className="content-banner mb-5 mb-lg-0">
       <div className="content-banner-inner container">
         <div className="text-center">
           <h1>Custom Suits</h1>

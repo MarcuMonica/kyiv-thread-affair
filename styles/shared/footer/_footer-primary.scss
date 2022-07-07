@@ -2,6 +2,17 @@
   background-color: $brand-secondary;
   color: $gray-tertiary;
 
+  @include media-breakpoint-up('lg') {
+    background-image: url(../../../public/images/banners/banner-06.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 32% 100%;
+  }
+
+  @include media-breakpoint-up('xxl') {
+    background-size: contain;
+  }
+
   // .footer-primary-inner
   &-inner {
     display: grid;
